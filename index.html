@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulaire Php</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Exo 1 -->
+        <form action="traitement.php" method="post" class="formAge">
+            <label for="age">Quel est vôtre âge ?</label>
+            <input type="text" name="age" id="age">
+            <button>Envoyer</button>
+        </form>
+        
+        <!-- Exo 2 -->
+        <form action="traitement.php" method="post" class="formNaissance">
+            <label for="dateNaissance">Quel est vôtre date de naissance ?</label>
+            <input type="date" name="dateNaissance" id="dateNaissance">
+            <button>Envoyer</button>
+        </form>
+        
+    </div>
+</body>
+</html>
